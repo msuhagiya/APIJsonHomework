@@ -63,7 +63,7 @@ public class JsonPlaceHolder {
     {
         Response response = given()
                 .baseUri("https://jsonplaceholder.typicode.com/")
-                .basePath("todos")
+                .basePath("todosPostsUser")
                 .when()
                 .get( "29");
         //verify that it returns status code 200
